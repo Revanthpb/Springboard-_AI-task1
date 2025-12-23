@@ -22,8 +22,6 @@ An AI-powered academic research assistant that summarizes research papers, defin
 ➕ Multiple chat sessions via sidebar
 
 
-
-
 🛠️ Tech Stack
 
 Frontend: Streamlit
@@ -35,3 +33,27 @@ Web Search: Tavily API
 Language: Python 3.9+
 
 Storage: Local JSON files
+📂 Project Structure 
+.
+├── app.py                  # Main Streamlit application
+├── chats/                  # Saved chat history (auto-created)
+│   ├── 2024-07-20_12-30.json
+│   └── ...
+├── README.md               # Project documentation
+🔑 API Keys Required
+
+You need the following API keys:
+
+Groq API Key
+
+Tavily API Key
+📦 Installation
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/ai-research-summary-chat.git
+cd ai-research-summary-chat
+2️⃣ Install Dependencies
+pip install streamlit openai tavily-python
+▶️ Run the Application
+streamlit run app.py
+
+
