@@ -1,6 +1,3 @@
-from dotenv import load_dotenv
-load_dotenv()
-
 import streamlit as st
 from tavily import TavilyClient
 from groq import Groq
@@ -11,8 +8,9 @@ from datetime import datetime
 import os
 
 # ---------- API KEYS ----------
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+TAVILY_API_KEY = st.secrets["TAVILY_API_KEY"]
+
 
 if not GROQ_API_KEY:
     st.error("GROQ_API_KEY not loaded. Check .env file.")
@@ -203,3 +201,4 @@ if user_input:
     (CHAT_DIR / f"{st.session_state.chat_id}.json").write_text(
         json.dumps(chat_data, indent=2)
     )
+
