@@ -81,3 +81,23 @@ Final Synthesis Agent
 -Elaborate
 
 
+⚠️ Limitations
+
+Keyword-based intent detection (not ML-based)
+
+Depends on external APIs (rate limits apply)
+
+Local storage only (no cloud sync)
+
+🛣️ Future Enhancements
+
+🔍 Semantic intent classification
+
+📄 PDF paper upload support
+
+🧠 Citation-aware summarization
+
+☁️ Cloud database (MongoDB/Firebase)
+
+🔐 User authentication
+
