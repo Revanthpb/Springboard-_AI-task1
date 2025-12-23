@@ -22,6 +22,8 @@ An AI-powered academic research assistant that summarizes research papers, defin
 ➕ Multiple chat sessions via sidebar
 
 
+
+
 🛠️ Tech Stack
 
 Frontend: Streamlit
