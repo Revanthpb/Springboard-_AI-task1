@@ -20,3 +20,16 @@ An AI-powered academic research assistant that summarizes research papers, defin
 💾 Persistent chat history (JSON-based)
 
 ➕ Multiple chat sessions via sidebar
+
+
+🛠️ Tech Stack
+
+Frontend: Streamlit
+
+LLM Provider: Groq (LLaMA 3.1)
+
+Web Search: Tavily API
+
+Language: Python 3.9+
+
+Storage: Local JSON files
