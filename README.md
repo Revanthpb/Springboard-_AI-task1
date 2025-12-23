@@ -1,9 +1,7 @@
-                                                                          📚 AI Research Summary Chat
-Groq · Tavily · Streamlit
-
+  📚 AI Research Summary Chat (Groq + Tavily + Streamlit)                         
 An AI-powered academic research assistant that summarizes research papers, defines concepts, lists key points, and integrates LLM intelligence with real-time web references — all through a chat-based interface.
 
-🚀 Features
+🚀 Features:-
 
 💬 Interactive chat-based research assistant
 
