@@ -43,53 +43,66 @@ Storage: Local JSON files
 🔑 API Keys Required
 
 You need the following API keys:
-Groq API Key
+Groq API Key ,
 Tavily API Key
 
 📦 Installation
 1️⃣ Clone the Repository
+
 git clone https://github.com/your-username/ai-research-summary-chat.git
+
 cd ai-research-summary-chat
+
 2️⃣ Install Dependencies
+
 pip install streamlit openai tavily-python
+
 ▶️ Run the Application
+
 streamlit run app.py
 
 🧠 How It Works
 🔍 Intent Detection
 
 The app detects user intent using keyword-based rules:
+
 Definition queries → one-line explanation
+
 Points queries → five bullet points
+
 Specific paper queries → detailed academic explanation
+
 Follow-up queries → context-aware continuation
 
 🧪 Agents Used
 
-Research Paper Summary Agent
-Single Paper Explanation Agent
-Web Reference Agent
+Research Paper Summary Agent,
+Single Paper Explanation Agent,
+Web Reference Agent,
 Final Synthesis Agent
 
 💬 Example Queries
 
 -Define transformers in AI
+
 -Five points on machine learning
+
 -Explain Attention Is All You Need paper
+
 -Summarize recent research on computer vision
--More
+
 -Elaborate
 
 
 ⚠️ Limitations
 
-Keyword-based intent detection (not ML-based)
+*Keyword-based intent detection (not ML-based)
 
-Depends on external APIs (rate limits apply)
+*Depends on external APIs (rate limits apply)
 
-Local storage only (no cloud sync)
+*Local storage only (no cloud sync)
 
-🛣️ Future Enhancements
+🛣️ Future Enhancements:---
 
 🔍 Semantic intent classification
 
