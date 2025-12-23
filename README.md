@@ -114,3 +114,12 @@ Final Synthesis Agent
 
 🔐 User authentication
 
+📜 License
+
+This project is licensed under the MIT License.
+
+👨‍💻 Author
+
+Revanth PB
+Computer Science Engineer | AI & Research Enthusiast
+
