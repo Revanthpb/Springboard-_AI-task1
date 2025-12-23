@@ -55,4 +55,29 @@ pip install streamlit openai tavily-python
 ▶️ Run the Application
 streamlit run app.py
 
+🧠 How It Works
+🔍 Intent Detection
+
+The app detects user intent using keyword-based rules:
+Definition queries → one-line explanation
+Points queries → five bullet points
+Specific paper queries → detailed academic explanation
+Follow-up queries → context-aware continuation
+
+🧪 Agents Used
+
+Research Paper Summary Agent
+Single Paper Explanation Agent
+Web Reference Agent
+Final Synthesis Agent
+
+💬 Example Queries
+
+-Define transformers in AI
+-Five points on machine learning
+-Explain Attention Is All You Need paper
+-Summarize recent research on computer vision
+-More
+-Elaborate
+
 
