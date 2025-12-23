@@ -43,10 +43,9 @@ Storage: Local JSON files
 🔑 API Keys Required
 
 You need the following API keys:
-
 Groq API Key
-
 Tavily API Key
+
 📦 Installation
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/ai-research-summary-chat.git
