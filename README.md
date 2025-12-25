@@ -1,125 +1,167 @@
- # 📚 AI Research Summary Chat (Groq + Tavily + Streamlit)                         
-An AI-powered academic research assistant that summarizes research papers, defines concepts, lists key points, and integrates LLM intelligence with real-time web references — all through a chat-based interface.
+# AI Research Summary Chat (Groq + Streamlit)
 
-🚀 Features:-
+This project is an AI-powered research assistant built using Streamlit, Groq LLM API, and Tavily Search. It summarizes research papers, defines concepts, provides bullet points, and fetches references from the web. The system saves chat history with automatic titles for future access.
 
-💬 Interactive chat-based research assistant
+------------------------------------------------------------
+1. PROJECT TITLE
+AI Research Summary Chat Using Groq and Tavily
+------------------------------------------------------------
 
-📖 One-line definitions for academic terms
+Purpose: To assist students, researchers, and professionals in quickly understanding academic topics, research papers, and related information through AI-generated responses.
 
-📌 Five-point explanations (features, advantages, lists)
+------------------------------------------------------------
+2. PROJECT OVERVIEW
+This system takes a research query from the user and generates:
+- Research paper summaries
+- One-line definitions
+- Key points and feature lists
+- Web reference links
+- Saved chat history for later review
 
-📄 Single research paper deep-dive
+Objective:
+Provide an interactive AI model that acts as a research assistant for academic and contextual understanding.
 
-📚 Multi-paper research summaries
+------------------------------------------------------------
+3. SOFTWARE AND HARDWARE DEPENDENCIES
 
-🌐 Live web references via Tavily search
+Software Requirements:
+- Python 3.10 or later
+- Streamlit (User Interface framework)
+- Groq API (LLM processing)
+- Tavily API (Web search augmentation)
 
-🧠 Context-aware follow-up queries
+Python Libraries Used:
+streamlit
+groq
+tavily-python
 
-💾 Persistent chat history (JSON-based)
+Hardware Requirements:
+- 4GB RAM or above
+- Internet connection required
+- GPU not needed (Groq Cloud handles computation)
 
-➕ Multiple chat sessions via sidebar
+------------------------------------------------------------
+4. ARCHITECTURE DIAGRAM
 
+User Input
+      |
+      v
+Streamlit UI (Frontend)
+      |
+      v
+Intent Classifier
+      |
+      v
+Groq LLM Model -------> Tavily Web Search (optional)
+      |                           |
+      v                           v
+Response Generator         Web Evidence
+      |
+      v
+Chat Output + JSON Storage (History)
 
-🛠️ Tech Stack
+------------------------------------------------------------
+5. WORKFLOW
 
-Frontend: Streamlit
+Step 1: User submits a query in Streamlit chat box.
+Step 2: System checks query intent (definition, paper summary, etc).
+Step 3: Groq LLM processes the request and generates structured output.
+Step 4: Tavily API fetches additional web references when needed.
+Step 5: Output is displayed to the user and stored in a JSON file.
+Step 6: Chat title is generated from the first input.
 
-LLM Provider: Groq (LLaMA 3.1)
+------------------------------------------------------------
+6. AGENT ROLES AND EXPLANATION
 
-Web Search: Tavily API
+Intent Detector:
+Determines if the user wants a definition, summary, list, or research paper explanation.
 
-Language: Python 3.9+
+Research Summary Agent:
+Generates summaries of multiple papers on a given topic.
 
-Storage: Local JSON files
-📂 Project Structure 
-.
-├── app.py                  # Main Streamlit application
-├── chats/                  # Saved chat history (auto-created)
-│   ├── 2024-07-20_12-30.json
-│   └── ...
-├── README.md               # Project documentation
-🔑 API Keys Required
+Single Paper Agent:
+Explains one research paper in detail including methodology.
 
-You need the following API keys:
-Groq API Key ,
-Tavily API Key
+Web Search Agent:
+Finds supporting URLs and evidence for the topic using Tavily Search.
 
-📦 Installation
-1️⃣ Clone the Repository
+Memory/Chat Storage:
+Stores conversations in JSON files with auto-generated titles.
 
-git clone https://github.com/your-username/ai-research-summary-chat.git
+------------------------------------------------------------
+7. SAMPLE WORKING DEMO
 
-cd ai-research-summary-chat
+Example Input:
+define artificial intelligence
 
-2️⃣ Install Dependencies
+Expected Output:
+Artificial Intelligence is the field focused on creating systems capable of learning, reasoning, and decision-making similar to human intelligence.
 
-pip install streamlit openai tavily-python
+------------------------------------------------------------
+8. OUTPUTS AND RESULTS
 
-▶️ Run the Application
+- Academic research summaries
+- Definition and point-based responses
+- URL references for further study
+- Saved chat logs with titles
+- Follow-up query handling
 
+------------------------------------------------------------
+9. LIMITATIONS
+
+- Requires internet for Tavily search results
+- Does not support PDF upload or document extraction
+- Dependent on query clarity for best output
+
+------------------------------------------------------------
+10. FUTURE ENHANCEMENTS
+
+- PDF upload feature to extract research from files
+- Vector database support for long-term memory
+- Voice to text and text to speech features
+- Export summary as PDF or Word document
+
+------------------------------------------------------------
+11. DEPLOYED PROJECT LINK
+
+(Add your link after deployment)
+https://your-app-name.streamlit.app
+
+------------------------------------------------------------
+12. INSTALLATION AND RUNNING LOCALLY
+
+Step 1: Clone the repository
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+
+Step 2: Install dependencies
+pip install -r requirements.txt
+
+Step 3: Create a .env file and add:
+GROQ_API_KEY=your_groq_api_key
+TAVILY_API_KEY=your_tavily_api_key
+
+Step 4: Run the application
 streamlit run app.py
 
-🧠 How It Works
-🔍 Intent Detection
+------------------------------------------------------------
+13. DEPLOYMENT (STREAMLIT CLOUD)
 
-The app detects user intent using keyword-based rules:
+1. Push project to GitHub
+2. Open streamlit.io and create a new app deployment
+3. Add the following in "Secrets" section:
+GROQ_API_KEY="your_live_key"
+TAVILY_API_KEY="your_live_key"
+4. Deploy and run
 
-Definition queries → one-line explanation
+------------------------------------------------------------
+14. AUTHOR DETAILS
+Name: Your Name
+Email: your-email@example.com
 
-Points queries → five bullet points
+------------------------------------------------------------
+15. LICENSE
+MIT License. Free to use, modify, and distribute.
 
-Specific paper queries → detailed academic explanation
-
-Follow-up queries → context-aware continuation
-
-🧪 Agents Used
-
-Research Paper Summary Agent,
-Single Paper Explanation Agent,
-Web Reference Agent,
-Final Synthesis Agent
-
-💬 Example Queries
-
--Define transformers in AI
-
--Five points on machine learning
-
--Explain Attention Is All You Need paper
-
--Summarize recent research on computer vision
-
--Elaborate
-
-
-⚠️ Limitations
-
-*Keyword-based intent detection (not ML-based)
-
-*Depends on external APIs (rate limits apply)
-
-*Local storage only (no cloud sync)
-
-🛣️ Future Enhancements:---
-
-🔍 Semantic intent classification
-
-📄 PDF paper upload support
-
-🧠 Citation-aware summarization
-
-☁️ Cloud database (MongoDB/Firebase)
-
-🔐 User authentication
-
-📜 License
-
-This project is licensed under the MIT License.
-
-👨‍💻 Author
-
-Revanth PB
-Computer Science Engineer | AI & Research Enthusiast
-
+------------------------------------------------------------
+END OF README
