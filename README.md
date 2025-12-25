@@ -43,7 +43,7 @@ Hardware Requirements:
 ------------------------------------------------------------
 ## 4. ARCHITECTURE DIAGRAM
 
-![Architecture Diagram](architecture.png)
+(architecture.png)
 
 ------------------------------------------------------------
 ## 5. WORKFLOW
