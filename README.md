@@ -43,30 +43,7 @@ Hardware Requirements:
 ------------------------------------------------------------
 ## 4. ARCHITECTURE DIAGRAM
 
-User Input
-
-      |
-      
-      v
-      
-Streamlit UI (Frontend)
-
-      |
-      
-      v
-      
-Intent Classifier
-
-      |
-      
-      v
-Groq LLM Model -------> Tavily Web Search (optional)
-      |                           |
-      v                           v
-Response Generator         Web Evidence
-      |
-      v
-Chat Output + JSON Storage (History)
+![Architecture Diagram](architecture.png)
 
 ------------------------------------------------------------
 ## 5. WORKFLOW
