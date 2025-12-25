@@ -64,10 +64,15 @@ Chat Output + JSON Storage (History)
 5. WORKFLOW
 
 Step 1: User submits a query in Streamlit chat box.
+
 Step 2: System checks query intent (definition, paper summary, etc).
+
 Step 3: Groq LLM processes the request and generates structured output.
+
 Step 4: Tavily API fetches additional web references when needed.
+
 Step 5: Output is displayed to the user and stored in a JSON file.
+
 Step 6: Chat title is generated from the first input.
 
 ------------------------------------------------------------
