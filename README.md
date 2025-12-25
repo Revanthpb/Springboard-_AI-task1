@@ -3,14 +3,14 @@
 This project is an AI-powered research assistant built using Streamlit, Groq LLM API, and Tavily Search. It summarizes research papers, defines concepts, provides bullet points, and fetches references from the web. The system saves chat history with automatic titles for future access.
 
 ------------------------------------------------------------
-1. PROJECT TITLE
+##1. PROJECT TITLE:- 
 AI Research Summary Chat Using Groq and Tavily
 ------------------------------------------------------------
 
 Purpose: To assist students, researchers, and professionals in quickly understanding academic topics, research papers, and related information through AI-generated responses.
 
 ------------------------------------------------------------
-2. PROJECT OVERVIEW
+##2. PROJECT OVERVIEW
 This system takes a research query from the user and generates:
 - Research paper summaries
 - One-line definitions
@@ -22,7 +22,7 @@ Objective:
 Provide an interactive AI model that acts as a research assistant for academic and contextual understanding.
 
 ------------------------------------------------------------
-3. SOFTWARE AND HARDWARE DEPENDENCIES
+##3. SOFTWARE AND HARDWARE DEPENDENCIES
 
 Software Requirements:
 - Python 3.10 or later
