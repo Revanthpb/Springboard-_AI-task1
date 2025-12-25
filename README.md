@@ -116,14 +116,14 @@ Artificial Intelligence is the field focused on creating systems capable of lear
 ## 11. DEPLOYED PROJECT LINK
 
 (Add your link after deployment)
-https://your-app-name.streamlit.app
+[https://your-app-name.streamlit.app](https://springboard-ai-task1-revanthpb.streamlit.app/)
 
 ------------------------------------------------------------
 ## 12. INSTALLATION AND RUNNING LOCALLY
 
 Step 1: Clone the repository
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/revanthpb/Springboard-_AI-task1.git
+cd Springboard-_AI-task1
 
 Step 2: Install dependencies
 pip install -r requirements.txt
