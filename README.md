@@ -42,6 +42,7 @@ Hardware Requirements:
 
 ------------------------------------------------------------
 ## 4. ARCHITECTURE DIAGRAM
+![architecture](https://github.com/user-attachments/assets/5466e645-83fe-4b4b-b249-313d073dab3f)
 
 ![Architecture diagram](architecture.png)
 
