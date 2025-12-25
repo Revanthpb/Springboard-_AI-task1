@@ -116,7 +116,7 @@ Artificial Intelligence is the field focused on creating systems capable of lear
 ## 11. DEPLOYED PROJECT LINK
 
 (Add your link after deployment)
-[https://your-app-name.streamlit.app](https://springboard-ai-task1-revanthpb.streamlit.app/)
+[https://springboard-ai-task1-revanthpb.streamlit.app/]
 
 ------------------------------------------------------------
 ## 12. INSTALLATION AND RUNNING LOCALLY
