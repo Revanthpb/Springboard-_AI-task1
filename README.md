@@ -148,6 +148,7 @@ TAVILY_API_KEY="your_live_key"
 ------------------------------------------------------------
 ## 14. AUTHOR DETAILS
 Name: Revanth P B
+
 Email: revanthrakshitha04@gmail.com
 
 ------------------------------------------------------------
