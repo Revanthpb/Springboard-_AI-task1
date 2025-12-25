@@ -115,7 +115,7 @@ Artificial Intelligence is the field focused on creating systems capable of lear
 ------------------------------------------------------------
 ## 11. DEPLOYED PROJECT LINK
 
-(Add your link after deployment)
+
 [https://springboard-ai-task1-revanthpb.streamlit.app/]
 
 ------------------------------------------------------------
@@ -147,12 +147,12 @@ TAVILY_API_KEY="your_live_key"
 
 ------------------------------------------------------------
 ## 14. AUTHOR DETAILS
-Name: Your Name
-Email: your-email@example.com
+Name: Revanth P B
+Email: revanthrakshitha04@gmail.com
 
 ------------------------------------------------------------
 ## 15. LICENSE
 MIT License. Free to use, modify, and distribute.
 
 ------------------------------------------------------------
-END OF README
+THANK YOU
