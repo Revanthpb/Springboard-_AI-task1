@@ -90,6 +90,7 @@ Artificial Intelligence is the field focused on creating systems capable of lear
 
 ------------------------------------------------------------
 ## 8. OUTPUTS AND RESULTS
+! [.]screenshots
 
 - Academic research summaries
 - Definition and point-based responses
