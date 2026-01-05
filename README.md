@@ -1,4 +1,4 @@
-# AI Research Summary Chat (Groq + Streamlit)
+ # AI Research Summary Chat (Groq + Streamlit)
 
 This project is an AI-powered research assistant built using Streamlit, Groq LLM API, and Tavily Search. It summarizes research papers, defines concepts, provides bullet points, and fetches references from the web. The system saves chat history with automatic titles for future access.
 
@@ -90,7 +90,9 @@ Artificial Intelligence is the field focused on creating systems capable of lear
 
 ------------------------------------------------------------
 ## 8. OUTPUTS AND RESULTS
-![Pic1]( ) 
+![Pic1](https://github.com/Revanthpb/Springboard-_AI-task1/blob/f5477f59668509cdf00554e8b2ca833c2ba1a3f0/Pic1.jpg) 
+! [](https://github.com/Revanthpb/Springboard-_AI-task1/blob/f5477f59668509cdf00554e8b2ca833c2ba1a3f0/Pic2.jpg) 
+! [](https://github.com/Revanthpb/Springboard-_AI-task1/blob/f5477f59668509cdf00554e8b2ca833c2ba1a3f0/Pic3.jpg) 
 
 - Academic research summaries
 - Definition and point-based responses
