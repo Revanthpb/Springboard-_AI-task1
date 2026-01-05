@@ -91,8 +91,8 @@ Artificial Intelligence is the field focused on creating systems capable of lear
 ------------------------------------------------------------
 ## 8. OUTPUTS AND RESULTS
 ![Pic1](https://github.com/Revanthpb/Springboard-_AI-task1/blob/f5477f59668509cdf00554e8b2ca833c2ba1a3f0/Pic1.jpg) 
-! [](https://github.com/Revanthpb/Springboard-_AI-task1/blob/f5477f59668509cdf00554e8b2ca833c2ba1a3f0/Pic2.jpg) 
-! [](https://github.com/Revanthpb/Springboard-_AI-task1/blob/f5477f59668509cdf00554e8b2ca833c2ba1a3f0/Pic3.jpg) 
+![pic2](https://github.com/Revanthpb/Springboard-_AI-task1/blob/f5477f59668509cdf00554e8b2ca833c2ba1a3f0/Pic2.jpg) 
+![](https://github.com/Revanthpb/Springboard-_AI-task1/blob/f5477f59668509cdf00554e8b2ca833c2ba1a3f0/Pic3.jpg) 
 
 - Academic research summaries
 - Definition and point-based responses
