@@ -1,4 +1,4 @@
- # AI Research Summary Chat (Groq )
+ # AI Research Summary Chat (Groq + Tavily )
 
 This project is an AI-powered research assistant built using Streamlit, Groq LLM API, and Tavily Search. It summarizes research papers, defines concepts, provides bullet points, and fetches references from the web. The system saves chat history with automatic titles for future access.
 
