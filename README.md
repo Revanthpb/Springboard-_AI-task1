@@ -27,7 +27,7 @@ Provide an interactive AI model that acts as a research assistant for academic a
 Software Requirements:
 - Python 3.10 or later
 - Streamlit (User Interface framework)
-- Groq API (LLM processing)
+- Groq API (LLM processing)-llama-3.1-8b-instant
 - Tavily API (Web search augmentation)
 
 Python Libraries Used:
